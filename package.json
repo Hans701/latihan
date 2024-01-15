@@ -6,22 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.9",
+    "graphql": "^16.8.1",
+    "lodash": "^4.17.21",
+    "next": "14.0.4",
+    "next-with-apollo": "^5.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "string-width": "^7.0.0",
+    "wrap-ansi": "^9.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@graphql-codegen/add": "^2.0.2",
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "@graphql-codegen/typescript-react-apollo": "^4.1.0",
+    "@types/lodash": "^4.14.169",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "mini-css-extract-plugin": "^2.7.7",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "typescript": "^5",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
